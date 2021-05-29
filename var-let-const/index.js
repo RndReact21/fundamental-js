@@ -28,4 +28,4 @@ console.log(variable); // output: amy
 // const
 
 const name = "BNCC";
-name = "New Club";
+// name = "New Club"; it will produce error
