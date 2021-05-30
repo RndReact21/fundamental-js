@@ -24,9 +24,11 @@ console.log(greetingArrowFunction("JIRA")); // output: Greetings: JIRA
 let names = ["luca", "luffy", "Popo", "Robin", "Rika"];
 
 names.map(function (names) {
+  // anoymus function
   return names.toUpperCase();
 });
 
 names.map((names) => {
+  // anoymus arrow function
   return names.toUpperCase;
 });

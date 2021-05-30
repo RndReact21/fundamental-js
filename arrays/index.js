@@ -46,6 +46,6 @@ let reduceCountries = countries.reduce(
   initialValueOfReduce
 );
 // reduceCountries have value of:
-//
+// ”Have reduce to uppercase :  INDONESIA MALAYSIA SINGAPORE“
 
 console.log(reduceCountries);
